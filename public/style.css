@@ -1,21 +1,61 @@
+/* General page styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  background: #f4f4f4;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
   margin: 0;
-  padding: 20px;
-}
-
-h1 {
+  padding: 0;
   color: #333;
 }
 
+/* Headings */
+h1 {
+  color: #222;
+  margin-top: 30px;
+  font-size: 2.2rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Navigation bar */
+nav {
+  margin-top: 20px;
+  background: #333;
+  padding: 12px 0;
+  border-radius: 8px;
+}
+
 nav a {
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
-  color: blue;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+
+/* 404 page special style */
+.error {
+  color: red;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+/* Contact page extra */
+.contact-info {
+  font-size: 1.2rem;
+  background: #fff;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
